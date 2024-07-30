@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Altura e Largura</title>
+    <style>
+        html{
+            height: 100%;
+        }
+        body {
+            font-size: 40px;
+            background-color: coral;
+            height: 100%;
+            margin: 0;
+        }
+
+        div {
+            background-color: seagreen;
+        }
+
+        span {
+            background-color: dodgerblue;
+        }
+
+        span, div{
+            width: 50%; /*Por padrão o body ocupa a lsinha toda por isso funciona*/
+            height: 250px;
+            height: 50%; /*Em unidades relativas, o body não aumenta de tamanho a não ser que tenha sido definido antes*/    
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div>Título</div><span>Subtítulo</span>
+</body>
+
+</html>
+
+<!--Por padrão o Body e o html tem altura equivalente aos seus elementos->

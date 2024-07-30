@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Origem CSS: Externo, Interno e Inline</title>
+    <style>
+      body {
+        background-color: aquamarine;
+      }
+    </style>
+    <link rel="stylesheet" href="css/externo.css" />
+    <!-- O código dá preferência para o utlimo processado, nesse caso o css do css/externo.css -->
+  </head>
+
+  <body style="background-color: beige;"> <!--Não é recomendado colocar propriedades IN-LINE// O Style que está dentro do elemento ele tem preferência total-->
+    <h1>E agora?</h1>
+  </body>
+</html>
